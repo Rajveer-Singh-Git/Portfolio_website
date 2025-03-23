@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(1, 1, 24);
+    color: white;
+}
+
+.header {
+    padding: 30px;
+    border: 2px solid white;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    justify-content: flex-start;
+}
+
+nav {
+    justify-content: flex-end;
+}
+
+nav > a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+a:visited {
+    color: rgb(79, 158, 223);
+}
+
+a:hover {
+    color:lightskyblue;
+}
+
+.intro {
+    padding: 30px;
+    margin: 100px 20px 20px 20px;
+    border: 2px solid white;
+    max-width: 600px;
+    max-height: 300px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    padding: 30px;
+    margin: 100px 20px 20px 20px;
+    height: 350px;
+    width: 600px;
+}
+
+.bottom {
+    text-align: center;
+    padding: 30px;
+    margin: 20px;;
+}
+
+.luminar1 {
+    border: 100px solid cyan;
+    width: 50%;
+    position: absolute;
+    left: 250px;
+    border-radius: 50%;
+    height: 100px;
+    filter: blur(200px);
+    top: -100px;
+    z-index: -1;
+}
+
+.luminar2 {
+    border: 100px solid rgb(85, 11, 100);
+    width: 50%;
+    position: absolute;
+    border-radius: 50%;
+    height: 100px;
+    filter: blur(150px);
+    left: -400px;
+    z-index: -1;
+}
+
+.luminar3 {
+    border: 100px solid cyan;
+    width: 50%;
+    position: absolute;
+    left: -700px;
+    border-radius: 50%;
+    height: 100px;
+    filter: blur(200px);
+    z-index: -1;
+}
