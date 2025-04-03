@@ -75,16 +75,18 @@ a:active {
 
 .intro-headline {
     display: inline-block;
+    overflow: hidden;
+    border-right: .10em solid white;
+    white-space: nowrap;
     font-size: 3.5vw;
     text-align: left;
     margin-left: 15%;
-    white-space: nowrap;
-    transition: transform 0.3s ease;
+    animation: typing-deleting 4s steps(40, end) infinite, blink-cursor 0.75s step-end infinite;
 }
 
-.intro-headline:hover {
+/* .intro-headline:hover {
     transform: scale(1.05);
-}
+} */
 
 .intro-secondline {
     max-width: 40vw;
@@ -104,7 +106,8 @@ a:active {
     border-radius: 30%;
     height: 17vw;
     width: 17vw;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
 }
 
 .abtcontainer {
@@ -124,7 +127,7 @@ a:active {
 }
 
 .abthead {
-    max-width: 9vw;
+    width: 20vw;
     margin: 0 -1% 0 2%;
     font-weight: 100;
 }
@@ -137,6 +140,13 @@ a:active {
     height: 22vw;
     margin: 0 0 0 8%;
     
+}
+
+.abtlines {
+    padding: 1%;
+    margin: 0 0 24% 2%;
+    letter-spacing: 1px;
+    font-weight: lighter;
 }
 
 .bottom {
@@ -162,4 +172,15 @@ a:active {
 @keyframes flicker {
     0% { border-color: #FF0033; box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);}
     100% { border-color: #FF3366; box-shadow: 0 0 25px rgba(255, 51, 102, 0.9);}
+}
+
+@keyframes typing-deleting {
+    0% { width: 0;}
+    50% { width: 17ch;}
+    100% {width: 0;}
+}
+
+@keyframes blink-cursor {
+    from, to { border-color: transparent; }
+    50% {border-color: white;}
 }
