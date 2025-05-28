@@ -34,7 +34,7 @@ h1 {
 }
 
 .firstletter {
-    color: red;
+    color: #FF3366;
 }
 
 nav {
@@ -48,9 +48,10 @@ nav>a {
 }
 
 a {
-    color: rgb(247, 54, 54);
+    color: #FF3366;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: lighter;
+    letter-spacing: 1px;
 }
 
 a:hover {
@@ -147,6 +148,125 @@ a:active {
     margin: 0 0 24% 2%;
     letter-spacing: 1px;
     font-weight: lighter;
+}
+
+.skills {
+   padding: 5%;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.skillcard1 {
+    height: 28vw;
+    width: 17vw;
+    background: #0A0A0A;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    opacity: 90%;
+}
+.skillcard2 {
+    height: 28vw;
+    width: 17vw;
+    background: #0A0A0A;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    opacity: 90%;
+}
+.skillcard3 {
+    height: 28vw;
+    width: 17vw;
+    background: #0A0A0A;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    opacity: 90%;
+}
+.skillcard4 {
+    height: 28vw;
+    width: 17vw;
+    background: #0A0A0A;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    opacity: 90%;
+}
+
+.services {
+    padding: 5%;
+    margin-top: 15%;
+    /* display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; */
+}
+
+.serv1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3%;
+    margin: 1%;
+}
+.serv2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3%;
+    margin: 1% 0 1% 30%;
+}
+
+.serv2 .rectangle {
+    margin-right: -23%;
+}
+
+.serv3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3%;
+    margin: 1%;
+}
+.serv4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3%;
+    margin: 1% 0 1% 30%;
+}
+
+.serv4 .rectangle {
+    margin-right: -23%;
+}
+
+
+.circle {
+    background: #0A0A0A;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.rectangle {
+    border: 2px solid white;
+    height: 14vw;
+    width: 45vw;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    background: #0A0A0A;
+    opacity: 90%;
+    margin-top: 3%;
+    position: absolute;
+    right: 32%;
+    z-index: -1;
 }
 
 .bottom {
