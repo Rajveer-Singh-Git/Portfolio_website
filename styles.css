@@ -162,13 +162,29 @@ a:active {
 
 .skillcard1 {
     height: 28vw;
-    width: 17vw;
+    padding: 1%;
+    max-width: 17vw;
     background: #0A0A0A;
     border: 1px solid #FF0033;
     box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
     animation: flicker 0.5s infinite alternate;
     opacity: 90%;
 }
+
+.skillcard1 > .stext {
+    max-width: 15vw;
+    margin: 80% 1% 2% 1% ;
+    padding: 1% 2% 3% 2%;
+    font-weight: lighter;
+}
+
+.stext {
+    max-width: 15vw;
+    margin: 80% 5% 2% 5% ;
+    padding: 1% 2% 3% 2%;
+    font-weight: lighter;
+}
+
 .skillcard2 {
     height: 28vw;
     width: 17vw;
@@ -199,7 +215,7 @@ a:active {
 
 .services {
     padding: 5%;
-    margin-top: 15%;
+    margin-top: 10%;
     /* display: flex;
     align-items: flex-start;
     justify-content: flex-start; */
@@ -211,7 +227,7 @@ a:active {
     justify-content: flex-start;
     padding: 3%;
     margin: 1%;
-}
+}                                                                                                                                                                                                                                                                                                                               
 .serv2 {
     display: flex;
     align-items: flex-start;
@@ -255,7 +271,6 @@ a:active {
 }
 
 .rectangle {
-    border: 2px solid white;
     height: 14vw;
     width: 45vw;
     border: 1px solid #FF0033;
@@ -267,6 +282,54 @@ a:active {
     position: absolute;
     right: 32%;
     z-index: -1;
+}
+
+.rtext {
+    font-weight: lighter;
+    max-width: 40vw;
+    max-height: 8vw;
+    margin: 7% 2% 7% 16%;
+}
+
+.rtextright {
+    font-weight: lighter;
+    max-width: 40vw;
+    max-height: 8vw;
+    margin: 7% 2% 7% 23%;
+}
+
+.ccont {
+    height: 35vw;
+    width: 70vw;
+    margin: 20% auto;
+    background: #0A0A0A;
+    color: #ffffff;
+    padding: 20px;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    opacity: 90%;
+    animation: flicker 0.5s infinite alternate;
+    border-radius: 2%;
+    /* display: flex;
+    align-items: center;
+ */
+}
+
+.conthead {
+    margin: 5% 40% 3% 45%;
+    max-width: 7vw;
+    max-height: 2vw;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+.contsept {
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    width: 80%;
+    height: 0.1vw;
+    margin: 1% 0 50% 10%;
 }
 
 .bottom {
