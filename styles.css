@@ -125,6 +125,9 @@ a:active {
     border-radius: 8px;
     display: flex;
     align-items: center;
+    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 20px 100%, 0% calc(100% - 20px));
+    color: #c0c0c0;
+    text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
 }
 
 .abthead {
@@ -157,7 +160,11 @@ a:active {
 .flex-container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 70px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .skillcard1 {
@@ -169,50 +176,60 @@ a:active {
     box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
     animation: flicker 0.5s infinite alternate;
     opacity: 90%;
+    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 20px 100%, 0% calc(100% - 20px));
+    color: #c0c0c0;
+    text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
 }
 
 .skillcard1 > .stext {
     max-width: 15vw;
-    margin: 80% 1% 2% 1% ;
+    margin: 40% 1% 2% 1% ;
     padding: 1% 2% 3% 2%;
     font-weight: lighter;
 }
 
 .stext {
     max-width: 15vw;
-    margin: 80% 5% 2% 5% ;
+    margin: 35% 1% 2% 5% ;
     padding: 1% 2% 3% 2%;
     font-weight: lighter;
 }
 
-.skillcard2 {
-    height: 28vw;
-    width: 17vw;
-    background: #0A0A0A;
-    border: 1px solid #FF0033;
-    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
-    animation: flicker 0.5s infinite alternate;
-    opacity: 90%;
-}
-.skillcard3 {
-    height: 28vw;
-    width: 17vw;
-    background: #0A0A0A;
-    border: 1px solid #FF0033;
-    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
-    animation: flicker 0.5s infinite alternate;
-    opacity: 90%;
-}
-.skillcard4 {
-    height: 28vw;
-    width: 17vw;
-    background: #0A0A0A;
-    border: 1px solid #FF0033;
-    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
-    animation: flicker 0.5s infinite alternate;
-    opacity: 90%;
+.simg1 {
+    max-width: fit-content;
+    margin: 12%  0  0 37%;
 }
 
+.simg2, .simg3, .simg4 {
+    max-width: fit-content;
+    margin: 16.5%  0  0 37%;
+}
+
+.skillcard2, .skillcard3, .skillcard4 {
+    height: 28vw;
+    width: 17vw;
+    background: #0A0A0A;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    opacity: 90%;
+    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 20px 100%, 0% calc(100% - 20px));
+    color: #c0c0c0;
+    text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
+}
+
+.skillcard5, .skillcard6, .skillcard7, .skillcard8 {
+    height: 28vw;
+    width: 17vw;
+    background: #0A0A0A;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    opacity: 90%;
+    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 20px 100%, 0% calc(100% - 20px));
+    color: #c0c0c0;
+    text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
+}
 .services {
     padding: 5%;
     margin-top: 10%;
