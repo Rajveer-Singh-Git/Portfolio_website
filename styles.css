@@ -125,7 +125,7 @@ a:active {
     border-radius: 8px;
     display: flex;
     align-items: center;
-    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 20px 100%, 0% calc(100% - 20px));
+    clip-path: polygon(0% 0%, calc(100% - 50px) 0%, 100% 50px, 100% 100%, 50px 100%, 0% calc(100% - 50px));
     color: #c0c0c0;
     text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
 }
@@ -157,6 +157,36 @@ a:active {
    padding: 5%;
 }
 
+.divider {
+    height: 4vw;
+    width: 15vw;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    background: #0A0A0A;
+    opacity: 100%;
+    clip-path: polygon(0% 0%, calc(100% - 30px) 0%, 100% 30px, 100% 100%, 30px 100%, 0% calc(100% - 30px));
+    margin: 0 41% -2.5% 41%;
+    font-weight: lighter;
+    font-size: 1.3rem;
+    padding: 1% 4.5%;
+    color: #c0c0c0;
+    text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
+}
+
+.liner {
+    height: 0.1vw;
+    width: 90vw;
+    border: 1px solid #FF0033;
+    box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
+    animation: flicker 0.5s infinite alternate;
+    background: #0A0A0A;
+    opacity: 90%;
+    margin: 0 0 20% 0;
+    position: relative;
+    z-index: -1;
+}
+
 .flex-container {
     display: flex;
     align-items: flex-start;
@@ -176,7 +206,7 @@ a:active {
     box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
     animation: flicker 0.5s infinite alternate;
     opacity: 90%;
-    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 20px 100%, 0% calc(100% - 20px));
+    clip-path: polygon(0% 0%, calc(100% - 30px) 0%, 100% 30px, 100% 100%, 30px 100%, 0% calc(100% - 30px));
     color: #c0c0c0;
     text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
 }
@@ -213,7 +243,7 @@ a:active {
     box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
     animation: flicker 0.5s infinite alternate;
     opacity: 90%;
-    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 20px 100%, 0% calc(100% - 20px));
+    clip-path: polygon(0% 0%, calc(100% - 30px) 0%, 100% 30px, 100% 100%, 30px 100%, 0% calc(100% - 30px));
     color: #c0c0c0;
     text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
 }
@@ -226,10 +256,16 @@ a:active {
     box-shadow: 0 0 20px rgba(255, 0, 51, 0.5);
     animation: flicker 0.5s infinite alternate;
     opacity: 90%;
-    clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 20px, 100% 100%, 20px 100%, 0% calc(100% - 20px));
+    clip-path: polygon(0% 0%, calc(100% - 30px) 0%, 100% 30px, 100% 100%, 30px 100%, 0% calc(100% - 30px));
     color: #c0c0c0;
     text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
 }
+
+.simg1l {
+    max-width: fit-content;
+    margin: 17%  0  0 31%;
+}
+
 .services {
     padding: 5%;
     margin-top: 10%;
@@ -287,6 +323,11 @@ a:active {
     border-radius: 50%;
 }
 
+.logoL {
+    max-width: fit-content;
+    margin: 35% 2% 32% 38.5%;
+}
+
 .rectangle {
     height: 14vw;
     width: 45vw;
@@ -306,6 +347,8 @@ a:active {
     max-width: 40vw;
     max-height: 8vw;
     margin: 7% 2% 7% 16%;
+    color: #c0c0c0;
+    text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
 }
 
 .rtextright {
@@ -313,6 +356,8 @@ a:active {
     max-width: 40vw;
     max-height: 8vw;
     margin: 7% 2% 7% 23%;
+    color: #c0c0c0;
+    text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
 }
 
 .ccont {
@@ -327,9 +372,9 @@ a:active {
     opacity: 90%;
     animation: flicker 0.5s infinite alternate;
     border-radius: 2%;
-    /* display: flex;
-    align-items: center;
- */
+    clip-path: polygon(0% 0%, calc(100% - 50px) 0%, 100% 50px, 100% 100%, 50px 100%, 0% calc(100% - 50px));
+    color: #c0c0c0;
+    text-shadow: 0 0 3px rgba(255, 0, 51, 0.5);
 }
 
 .conthead {
